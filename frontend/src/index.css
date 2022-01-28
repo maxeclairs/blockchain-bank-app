@@ -1,0 +1,140 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0a0022;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+button{
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 20px;
+  width: 100%;
+  margin: 0;
+  background-color: rgb(14, 14, 141);
+  color:white;
+  border-top:transparent;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+form{
+  /* display: flex;
+  flex-direction: column; */
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  
+}
+
+.bank-name{
+  /* padding-left: auto; */
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.btn-connect{
+ width: auto;
+ margin: auto;
+ display: block; 
+ border: solid #c7bddf;
+ 
+ /* align-items: center; */
+}
+
+.headline-text{
+  animation: flow 10s ease-in-out infinite;
+  background: linear-gradient(#c7bddf, #4c00ff);
+  background-clip: text;
+  color: transparent;
+}
+@keyframes flow {
+  from{
+    filter: hue-rotate(0deg);
+  }
+  to{
+    filter: hue-rotate(360deg);
+  }
+}
+
+.input-text{
+  font-size: 1.2rem;
+  padding: 10px;
+  width: 100%;
+  margin: 0;
+  background-color: #20006b;
+  color:white;
+  /* border:transparent; */
+  border-bottom: transparent;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.main-container{
+  border: solid;
+  border-color: rgb(213, 213, 213);
+  border-width: 2px;
+  border-radius: .75rem;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #20006b;
+  color: #cac3e8;
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.money-image{
+  filter: drop-shadow( 5px 5px .5rem rgb(230, 226, 5));
+}
+
+.section{
+  width: 100%;
+  margin-top: 1.22rem;
+
+}
+
+.header{
+  /* background-color: rgb(233, 227, 227); */
+  width: 100%;
+  text-align: center;
+  /* border-radius: inherit; */
+  border-bottom: solid 4px #414141;
+  
+}
+
+.wallet-text{
+  /* font-size: 1.5rem; */
+  font-weight: 700;
+  color: rgb(253, 227, 227);
+  text-align: center;
+  margin-left: 5%;
+}
+
+.status-text{
+  font-weight: 700;
+  color: rgb(255, 109, 109);
+  /* text-align: center; */
+  margin-left: 5%;
+}
