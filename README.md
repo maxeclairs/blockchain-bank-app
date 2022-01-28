@@ -9,5 +9,4 @@ Clone this repo and then run the following command:
 `npm install`
 
 CD into the frontend directory and run the following command to start React engine:
-
 `npm start`
