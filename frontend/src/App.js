@@ -234,8 +234,8 @@ function App(){
       {error && <p className="text-2xl text-red-700">{error}</p>}
         <div className='bank-name'>
           {currentBankName === "" && isBankOwner ?
-            <p>"Setup the name of your bank." </p> :
-            <p>Welcome to {currentBankName} </p>
+            <p>"Setup the name of your bank."</p> :
+            <p> {currentBankName} </p>
 
           }
         </div>
